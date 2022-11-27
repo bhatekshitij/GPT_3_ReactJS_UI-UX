@@ -35,12 +35,14 @@ const Navbar = () => {
                 <p>sign in</p>
                 <button type='button'>Sign up</button>
             </div>
+
+            {/* This is the start of Mobile version Menu and Navbar  */}
             <div className="gpt3__navbar-menu">
                 {toggleMenu
                     ? <RiCloseLine color='#fff' size={27} onClick={() => setToggleMenu(false)} /> /// the "?" represents that if the condition is true, and the ":" represents if the condition is false
                     : <RiMenu3Line color='#fff' size={27} onClick={() => setToggleMenu(true)} />}
                 {toggleMenu && (
-                    <div className='gpt3__navbar-menu-container scale-up-center'>
+                    <div className='gpt3__navbar-menu_container scale-up-center'>
                         <div className='gpt3__navbar-menu_container-links'>
                             <p><a href="#home">Home</a></p>
                             <p><a href="#wgtp3">what is GPT3</a></p>
@@ -48,6 +50,12 @@ const Navbar = () => {
                             <p><a href="#features">Case Studies</a></p>
                             <p><a href="#blog">Library</a></p>
                             {/* Links Container End */}
+                            {/* Sign in Container */}
+                            <div className="gpt3__navbar-menu_container-links-sign">
+                                <p>sign in</p>
+                                <button type='button'>Sign up</button>
+                            </div>
+
                         </div>
                     </div>
                 )
