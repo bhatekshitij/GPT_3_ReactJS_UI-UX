@@ -8,7 +8,7 @@ const WhatGPT3 = () => {
                 <Feature />
             </div>
             <div className="gpt3__whatgpt3-heading">
-                <h1 className="gradient-text">Possibilities are beyond your imaginations.</h1>
+                <h1 className="gradient__text">Possibilities are beyond your imaginations.</h1>
                 <p>Explore the library</p>
             </div>
             <div className="gpt3__whatgpt3-container">

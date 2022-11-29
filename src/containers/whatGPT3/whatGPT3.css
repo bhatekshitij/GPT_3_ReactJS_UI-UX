@@ -3,6 +3,7 @@
     flex-direction: column;
 
     padding: 2rem;
+    margin: 4rem;
     background: var(--color-footer);
 
     /* ff 3.6+ */
@@ -26,4 +27,148 @@
 
 .gpt3__whatgpt3-feature {
     display: flex;
+}
+
+
+/* 
+.gpt3__whatgpt3-feature .gpt3__features-container__feature {margin=0;}
+
+
+.gpt3__whatgpt3-feature .gpt3__features-container__feature-text {
+    max-width:700px;
+} */
+
+.gpt3__whatgpt3-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem 0 2rem;
+}
+
+.gpt3__whatgpt3-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    font-style: normal;
+    max-width: 510px;
+
+}
+
+.gpt3__whatgpt3-heading p {
+    font-family: var(--font-family);
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    color: #FF8A71;
+    cursor: pointer;
+
+}
+
+
+.gpt3__whatgpt3-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 850px) {
+
+    /* For Heading and containers */
+    .gpt3__whatgpt3-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .gpt3__whatgpt3-heading p {
+        margin-top: 1rem;
+    }
+
+
+    /* ///////////////////////////////////// */
+    /* For Feature Component */
+    /* ///////////////////////////////////// */
+
+
+
+
+
+}
+
+@media screen and (max-width : 635px) {
+
+    .gpt .gpt3__whatgpt3-heading h1 {
+        font-size: 26px;
+        line-height: 33px;
+    }
+
+    .gpt3__whatgpt3-heading p {
+        font-size: 15px;
+    }
+
+
+
+    /* ///////////////////////////////////// */
+    /* For Feature Component */
+    /* ///////////////////////////////////// */
+
+    .gpt3__whatgpt3-feature .gpt3__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 420px) {
+    .gpt3__whatgpt3-heading {
+        margin-right: 3rem;
+    }
+
+    .gpt3__whatgpt3-heading h1 {
+        font-size: 29px;
+        line-height: 33px;
+    }
+
+
+    /* ///////////////////////////////////// */
+    /* For Feature Component */
+    /* ///////////////////////////////////// */
+    .gpt3__whatgpt3-container .gpt3__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+
+    .gpt3__whatgpt3 {
+        padding: 1rem;
+    }
+
+
+
+    .gpt3__whatgpt3-heading {
+        margin-right: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .gpt3__whatgpt3-heading p {
+        font-size: 15px;
+        line-height: 18px;
+    }
 }
