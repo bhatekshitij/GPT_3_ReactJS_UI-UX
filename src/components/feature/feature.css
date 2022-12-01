@@ -47,7 +47,7 @@
 }
 
 
-@media screen and (max-width : 1150px) {
+@media screen and (max-width : 850px) {
     .gpt3__features-container__feature {
         display: flex;
         flex-direction: column;

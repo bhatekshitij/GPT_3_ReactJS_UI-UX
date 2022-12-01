@@ -121,6 +121,10 @@
         margin: 1rem;
     }
 
+    .gpt3__whatgpt3-heading h1 {
+        padding: 0rem;
+    }
+
 }
 
 
@@ -128,6 +132,10 @@
     .gpt3__whatgpt3-container .gpt3__features-container__feature {
         margin: 1rem 0;
         min-width: 100%;
+    }
+
+    .gpt3__whatgpt3-heading {
+        margin-top: 1rem;
     }
 }
 
@@ -140,6 +148,10 @@
 
     .gpt3__whatgpt3-heading p {
         font-size: 16px;
+    }
+
+    .gpt3__whatgpt3 {
+        padding: 1rem;
     }
 }
 
