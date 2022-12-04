@@ -22,9 +22,7 @@ const featureData = [{
     text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.'
 },]
 
-console.log(featureData.map((item, index) => {
-    <Feature title={item.title} text={item.text} />
-}));
+
 const Features = () => {
     return (
         <div className='gpt3__features section__padding' id='features'>
